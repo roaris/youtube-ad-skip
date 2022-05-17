@@ -1,0 +1,12 @@
+{
+  "name": "youtube-ad-skip",
+  "description": "Skip skippable Youtube ads and remove banner ads",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch?*"],
+      "js": ["dist/app.js"]
+    }
+  ]
+}
